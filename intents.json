@@ -1,0 +1,281 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting, How can i help you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {"tag": "noanswer",
+      "patterns": [],
+      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What is this website about?",
+        "what things do you sell?"
+
+      ],
+      "responses": [
+        "This is the complete e-commerece website. We sell products like: Electronics , Clothings, Beauty products and many others.\nWhat are you looking for?"
+        
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "How can I pay?",
+        "Payment methods?",
+        "Payment"
+      ],
+      "responses": [
+        "We accept VISA, credit cards, Debit cards, Paytm, google pay, Mastercard and Paypal"
+        
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Delivery time",
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "contact",
+        "about you"
+      ],
+      "responses": [
+        "contact number 6289166961 - Indrajit"
+        
+      ]
+    },
+
+    {
+      "tag": "Electronics",
+      "patterns": [
+        "which electronic items do you sell?",
+        "electronics",
+        "electric",
+        "electric items"
+      
+        
+      ],
+      "responses": [
+        "\n*AC\n*Refrigerator\n*Fan\n*Laptop\n*Hair-Dryer\n*Mobiles\n*Water purifiers\n*Vaccun cleaners\n*All home appliances\n------>What are you looking for?"
+      ]
+      
+    },
+    {
+      "tag": "Air Cooler",
+      "patterns": [
+        "ac",
+        "Air Cooler",
+        "air contitioner",
+        "AC"
+   
+      ],
+
+      "responses": [
+      
+        "We have AC of various brands like \n* Hitachi\n* Samsung\n* Blue star\n* voltas\n* Haier\n* others\n------> Type which brand of AC you want?\nExample: If you want AC of brand Blue Star then type 'Company name' and 'electronic appliances' like 'Blue Star AC'"
+      ]
+    },
+    {
+      "tag": "Hitachi",
+      "patterns": [
+        "Hitachi ac",
+        "Hitachi",
+        "Hitachi AC"
+      ],
+      "responses": [
+      
+        "Enter hitachi link"
+      ]
+    },
+    {
+      "tag": "Samsung",
+      "patterns": [
+        "Samsung ac",
+        "Samsung AC",
+        "Samsung"
+      ],
+      "responses": [
+      
+        "Enter Samsung AC link"
+      ]
+    },
+    {
+      "tag": "Blue star",
+      "patterns": [
+        "Blue star",
+        "Blue star ac",
+        "bluestar ac",
+        "blue star AC"
+      ],
+      "responses": [
+      
+        "Enter Blue star AC link"
+      ]
+    },
+   
+    {
+      "tag": "Voltas",
+      "patterns": [
+        "voltas ac",
+        "voltas AC"
+        
+      ],
+      "responses": [
+      
+        "Enter voltas AC link"
+      ]
+    },
+    {
+      "tag": "Haier",
+      "patterns": [
+        "Haier",
+        "Haier AC",
+        "Haier ac"
+      ],
+      "responses": [
+      
+        "Enter Haier AC link"
+      ]
+    },
+    {
+      "tag": "others",
+      "patterns": [
+        "others",
+        "other"
+        
+      ],
+      "responses": [
+      
+        "Enter other AC link"
+      ]
+    },
+    {
+      "tag": "fridge",
+      "patterns": [
+        "refrigerator",
+        "fridge"
+        
+      ],
+      "responses": [
+      
+        "We have Refrigerator of various brands like:\n*Bosch\n*Whirpool\n*LG\n*Siemens\n*others"
+      ]
+    },
+    
+    {
+      "tag": "Whirpool",
+      "patterns": [
+        "whirpool refrigerator",
+        "whirpool fridge",
+        "whirpool freezer"
+      ],
+      "responses": [
+        "Enter Whirppol Refrigerator Link"
+      
+      ]
+    },
+    {
+      "tag": "LG Ref",
+      "patterns": [
+        "LG refrigerator",
+        "LG fridge",
+        "LG freezer"
+
+       ],
+      "responses": [
+        "Enter LG Refrigerator Link"
+      
+      ]
+    },
+    {
+      "tag": "Bosch Ref",
+      "patterns": [
+       "Bosch refrigerator",
+       "bosh freezer",
+       "bosch fridge"
+      ],
+      "responses": [
+        "Enter Bosch Refrigerator Link"
+      
+      ]
+    },
+    {
+      "tag": "Siemenes ",
+      "patterns": [
+       "Siemenes refrigerator",
+       "Siemenes freezer",
+       "Siemenes fridge"
+      ],
+      "responses": [
+        "Enter Siemenes Refrigerator Link"
+      
+      ]
+    },
+    {
+      "tag": "others ref ",
+      "patterns": [
+       "others refrigerator",
+       "others freezer",
+       "others fridge"
+      ],
+      "responses": [
+        "Enter other Refrigerator Link"
+      
+      ]
+    }
+
+
+
+
+
+    
+  ]
+}
