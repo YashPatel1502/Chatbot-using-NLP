@@ -1,5 +1,5 @@
 # Implementation of a Contextual Chatbot in PyTorch.  
-Simple chatbot implementation with PyTorch. 
+Simple chatbot implementation with PyTorch. ChatBot for E-commerce website.
 
 ## Installation
 
